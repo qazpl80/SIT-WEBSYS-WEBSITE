@@ -1,0 +1,46 @@
+section h2
+{
+    text-decoration: underline;
+}
+figure
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure img
+{
+    border-style: double;
+    border-color: black; 
+}
+figcaption
+{
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 0.8em;
+    color: gray;
+}
+.img-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.img-popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid white;
+}
